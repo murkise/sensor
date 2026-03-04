@@ -1,8 +1,6 @@
 #include "BluetoothSerial.h"
 #include "DHT.h"
-
-#define DHTPIN 5
-#define DHTTYPE DHT22
+#include "bt_sensor_phase1.h"
 
 BluetoothSerial SerialBT;
 DHT dht(DHTPIN, DHTTYPE);
